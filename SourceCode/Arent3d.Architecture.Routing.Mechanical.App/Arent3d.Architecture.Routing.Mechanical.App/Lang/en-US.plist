@@ -68,6 +68,9 @@
         <key>Mechanical.App.Commands.Routing.PickRoutingCommand</key>
         <string>Pick&#xA;From-To</string>
 
+        <key>Mechanical.App.Commands.Routing.AutoRouteSupplyAirGrillCommand</key>
+        <string>Auto Routing&#xA;Supply Air Grill</string>
+
         <key>Mechanical.App.Commands.Routing.ReplaceFromToCommand</key>
         <string>Replace&#xA;From-To</string>
 
@@ -113,6 +116,9 @@
 
         <key>TransactionName.Commands.Routing.PickRouting</key>
         <string>Add From-To</string>
+
+        <key>TransactionName.Commands.Routing.AutoRouteSupplyAirGrill</key>
+        <string>Auto Routing Supply Air Grill</string>
 
         <key>TransactionName.Commands.Routing.RoutingFromFile</key>
         <string>Import From-To</string>
@@ -170,6 +176,11 @@
         <string>Pick the FROM point of a from-to.</string>
         <key>Dialog.Commands.Routing.PickRouting.PickSecond</key>
         <string>Pick the TO point of a from-to.</string>
+
+        <key>Dialog.Commands.Routing.AutoRouteSupplyAirGrill.PickFrom</key>
+        <string>Pick the air distribution box OUT connector (FROM).</string>
+        <key>Dialog.Commands.Routing.AutoRouteSupplyAirGrill.Require2D</key>
+        <string>This command only runs in 2D. Please switch to a Floor Plan or Ceiling Plan view.</string>
 
         <key>Dialog.Commands.Routing.PickAndReRoute.Pick</key>
         <string>Pick a from-to to reroute.</string>

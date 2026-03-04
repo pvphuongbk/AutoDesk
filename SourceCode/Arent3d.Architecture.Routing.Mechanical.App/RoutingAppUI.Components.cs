@@ -25,6 +25,9 @@ namespace Arent3d.Architecture.Routing.Mechanical.App
       {
         [Button( typeof( PickRoutingCommand ), OnlyInitialized = true )]
         private static class PickRoutingCommandButton { }
+
+        [Button( typeof( AutoRouteSupplyAirGrillCommand ), OnlyInitialized = true )]
+        private static class AutoRouteSupplyAirGrillCommandButton { }
       }
 
       [Panel( "arent3d.architecture.routing.monitor", TitleKey = "Mechanical.App.Panels.Routing.Monitor" )]

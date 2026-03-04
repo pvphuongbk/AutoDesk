@@ -67,6 +67,9 @@
         <key>Mechanical.App.Commands.Routing.PickRoutingCommand</key>
         <string>Pick&#xA;From-To</string>
 
+        <key>Mechanical.App.Commands.Routing.AutoRouteSupplyAirGrillCommand</key>
+        <string>給気グリル&#xA;自動ルーティング</string>
+
         <key>Mechanical.App.Commands.Routing.ReplaceFromToCommand</key>
         <string>Replace&#xA;From-To</string>
 
@@ -112,6 +115,9 @@
 
         <key>TransactionName.Commands.Routing.PickRouting</key>
         <string>From-Toの作成</string>
+
+        <key>TransactionName.Commands.Routing.AutoRouteSupplyAirGrill</key>
+        <string>給気グリル自動ルーティング</string>
 
         <key>TransactionName.Commands.Routing.RoutingFromFile</key>
         <string>From-Toの読込</string>
@@ -162,6 +168,11 @@
         <string>From-Toの始点を選択してください。</string>
         <key>Dialog.Commands.Routing.PickRouting.PickSecond</key>
         <string>From-Toの終点を選択してください。</string>
+
+        <key>Dialog.Commands.Routing.AutoRouteSupplyAirGrill.PickFrom</key>
+        <string>給気用ダクトボックスのOUTコネクタ（始点）を選択してください。</string>
+        <key>Dialog.Commands.Routing.AutoRouteSupplyAirGrill.Require2D</key>
+        <string>このコマンドは2D（フロアプラン／天井プラン）でのみ実行できます。フロアプランまたは天井プランビューに切り替えてください。</string>
 
         <key>Dialog.Commands.Routing.PickAndReRoute.Pick</key>
         <string>再ルーティングしたいFrom-Toを選択してください。</string>

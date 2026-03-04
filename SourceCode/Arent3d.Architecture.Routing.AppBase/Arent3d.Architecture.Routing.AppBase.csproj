@@ -1,4 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup Condition="'$(TargetFramework)' == ''">
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
   <Import Project="$(SolutionDir)CommonProjectProperties.prop" />
 
   <PropertyGroup>
